@@ -1,0 +1,220 @@
+﻿.body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background: url("../images/chat.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(7, 103, 172, 0.74) !important;
+    color: #FFF !important;
+}
+
+
+/* Styles */
+.navbar-brand {
+    font-family: big-bubu;
+    font-size: 35px;
+}
+a.navbar-brand {
+    color: #FFF !important;
+}
+.home-link {
+    width: 100%;
+}
+.nav-link {
+    float: right;
+}
+.welcome {
+    font-family: big-bubu;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -18px;
+    height: 200px;
+    line-height: 200px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,1+19,1+81,0.8+99,0.8+99,0+99 */
+    /*background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(30,87,153,0.6) 19%, rgba(30,87,153,0.6) 20%, rgba(41,137,216,0.6) 50%, rgba(30,87,153,0.6) 80%, rgba(30,87,153,0.6) 81%, rgba(30,87,153,0) 99%);*/ /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(30,87,153,0.6) 19%,rgba(30,87,153,0.6) 20%,rgba(41,137,216,0.6) 50%,rgba(30,87,153,0.6) 80%,rgba(30,87,153,0.6) 81%,rgba(30,87,153,0) 99%);*/ /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(30,87,153,0.6) 19%,rgba(30,87,153,0.6) 20%,rgba(41,137,216,0.6) 50%,rgba(30,87,153,0.6) 80%,rgba(30,87,153,0.6) 81%,rgba(30,87,153,0) 99%);*/ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=1 );*/ /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, rgba(125,185,232,0) 0%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+}
+.btn-chat {
+    margin-top: 150px;
+    font-size: 30px;
+    font-family: Broadway;
+}
+.btn-chat>img {
+    margin-right: 10px;
+}
+
+.chat-modal {
+    background: #FFF;
+    max-width: 550px;
+    height: 650px;
+    line-height: 600px;
+    margin: 50px auto;
+    border: 5px solid rgb(16, 82, 216);
+    border-radius: 10px;
+    position: relative;
+}
+
+.none {
+    display: none;
+    visibility: hidden;
+}
+
+.chat-start {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0;
+    padding: 160px 20%;
+}
+
+.label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input {
+    border: 1px solid rgb(16, 82, 216);
+}
+
+.chat-block {
+    position: absolute;
+    overflow: auto;
+    padding: 10px 0;
+    line-height: 0;
+    height: calc(100% - 200px);
+    width: 97%;
+    top: 10px;
+    left: 2.5%;
+}
+
+.text-block {
+    position: absolute;
+    overflow: auto;
+    line-height: 0;
+    height: 180px;
+    width: 90%;
+    bottom: 10px;
+    left: 5%;
+}
+
+.text-block > textarea {
+    border: 2px solid rgb(16, 82, 216);
+    border-radius: 10px;
+}
+
+.text-block > button {
+    margin-top: 10px !important;
+}
+
+.chat-button {
+    float: right;
+    margin-top: 25px;
+}
+
+li {
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.user-name {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.user-text {
+    display: block;
+    padding: 15px;
+    background: rgb(58, 117, 238);
+    color: #FFF;
+    font-size: 11px;
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 0 5px 5px 5px;
+}
+
+
+
+/* animation scale-in-center */
+.scale-in-center {
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+@media(max-width: 768px) {
+    .welcome {
+        height: 120px !important;
+        line-height: 50px;
+        padding: 20px;
+        font-size: 30px;
+        overflow: hidden;
+    }
+}
+
+@media(max-width: 485px) {
+    .welcome {
+        height: 150px !important;
+    }
+    .chat-start {
+        padding: 160px 8%;
+    }
+}
+
+@media(max-width: 415px) {
+    .btn-chat {
+        font-size: 7vw;
+    }
+}
+

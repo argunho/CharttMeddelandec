@@ -1,0 +1,25 @@
+﻿@page
+<div class="text-center" id="chat">
+    <div class="chat-modal scale-in-center" id="modal">
+
+        <!--Loadin img-->
+        <img src="~/images/loading.gif" class="loading" id="loading" alt="" />
+
+        <!--Chat start and send text block-->
+        <div class="chat-start none" id="block">
+                <label class="label">Vad heter du?</label>
+                <input class="form-control" type="text" id="userInput" />
+
+                <label class="label">Din text:</label>
+                <textarea class="form-control start-textarea" rows="3" id="messageInput"></textarea>
+                <button type="button" class="btn btn-primary chat-button" id="sendButton">Starta chaten</button>
+        </div>
+
+        <!--Chat list-->
+        <div class="chat-block none" id="msg">
+            <ul id="messagesList" class="scale-in-center"></ul>
+        </div>
+    </div>
+
+
+</div>
