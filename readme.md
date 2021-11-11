@@ -1,3 +1,5 @@
+# Chatt kommunikation - Min studie uppgift 
+
 # Projekt Meddelandecentralen
 
 Syftet med detta projekt är att skapa en ny typ av kommunikations möjlighet mellan hotellanställda för överföring av snabbmeddelanden
