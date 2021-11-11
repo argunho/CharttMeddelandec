@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Yg8meVZF6AaIx0qvdyePStg8gqRJF3OIvzCdo9PsrKZ7X2dbL9Ql6bF76VKMWT0YKKfy0cEG9zPjvwuTkbnNw==",
+  "dgSpecHash": "nkMKsDoOYS8Fzl9DkvK8vZ8OQH/SundqKF/2ejuQruQBCWg1JrHvpwcq5QCaZzuIUf2xmeuMrAhqoh7gPV0hhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aslan.DESKTOP-T1ACL15\\Documents\\Web mapp\\yh\\Course exercises\\wmr\\projekt meddelandecentralen\\Meddalandecetralen MVC\\Meddalandecetralen.csproj",
+  "projectFilePath": "C:\\Users\\aslan.DESKTOP-T1ACL15\\Documents\\StudieYH\\wmr\\projekt meddelandecentralen\\Projekt-Meddelandecentralen\\Meddalandecetralen MVC\\Meddalandecetralen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aslan.DESKTOP-T1ACL15\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.9\\microsoft.aspnetcore.mvc.razor.extensions.3.1.9.nupkg.sha512",
     "C:\\Users\\aslan.DESKTOP-T1ACL15\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.9\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.9.nupkg.sha512",
