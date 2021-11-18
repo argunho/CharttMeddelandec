@@ -1,4 +1,4 @@
-# Chatt kommunikation - Min studie uppgift 
+# Studieuppgift - Chatt kommunikation
 
 # Projekt Meddelandecentralen
 
